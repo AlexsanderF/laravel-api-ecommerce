@@ -7,7 +7,6 @@ use App\Http\Requests\ProductUpdateRequest;
 use App\Models\Product;
 use App\Services\ProductServices;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
 class  ProductController extends Controller

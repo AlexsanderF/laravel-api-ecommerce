@@ -29,7 +29,6 @@ class ImageObserver implements ShouldHandleEventsAfterCommit
      */
     public function deleted(Images $image): void
     {
-        dump('oi');
         Storage::delete($image->url);
     }
 
